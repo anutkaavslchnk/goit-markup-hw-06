@@ -62,7 +62,10 @@
     .container{
         max-width:766px;
     }
- 
+    .modal{
+        left:50%;
+  top:33%;
+    }
     .first-sec {
         padding: 112px 0;
         max-width: 100%;
@@ -315,5 +318,8 @@ letter-spacing: 1.12px;
 color:  #FFFFFF;
 text-align: center;
 }
-
+.modal{
+    left:50%;
+    top:50%;  
+}
 }
