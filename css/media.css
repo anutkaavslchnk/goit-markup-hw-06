@@ -70,6 +70,10 @@
         padding: 112px 0;
         max-width: 100%;
     }
+    .third-t{
+        justify-content: start;
+    }
+    
     .button{
         margin-top: 36px;
     }
@@ -321,5 +325,8 @@ text-align: center;
 .modal{
     left:50%;
     top:50%;  
+}
+.third-t{
+    justify-content: start;
 }
 }

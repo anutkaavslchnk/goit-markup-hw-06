@@ -401,7 +401,7 @@ max-width: 100%;
   .second-list{
     display: flex;
     flex-wrap:wrap;
-    gap: 24px;
+    gap: 72px;
     
   }
 .second-section{
@@ -445,6 +445,8 @@ max-width: 100%;
  
   margin-bottom: 8px;
   align-items: center;
+  justify-content: center;
+    display: flex;
 }
 .smth-paragraph {
   font-size: 16px;
@@ -467,6 +469,7 @@ max-width: 100%;
   letter-spacing: 0.02em;
   color: var(--small-color);
   align-items: center;
+ 
 }
 .second-title {
   font-style: normal;
