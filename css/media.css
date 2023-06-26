@@ -1,0 +1,319 @@
+@media screen and (min-width:428px){
+    .container{
+        max-width:426px;
+      
+    }
+    .smth-li{
+        max-width:396px;
+    }
+    .customers-items{
+        max-width:unset;
+        width: calc((100% - 16px) / 2);
+    
+    }
+    .customers-list{
+        grid-gap: 72px 16px;
+    }
+    .list-img{
+        max-width:264px;
+    }
+    .list-team{
+        justify-content: center;
+    }
+    .footer-sec{
+        display:flex;
+  justify-content: center;
+  align-items: center;
+    }
+
+.soc-paragraph{
+ 
+}
+.footer-icon-list{
+
+}
+
+.first-sec {
+    padding: 112px 0;
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-mobile.jpg);
+    max-width: 100%;
+}
+.button{
+    margin-top: 72px;
+}
+.title{
+    width: 320px;
+}
+
+.footer-logo {
+    
+}
+.modal-menu{
+    display:flex;
+}
+
+}
+
+@media screen and (min-width:768px){
+    .container{
+        max-width:766px;
+    }
+ 
+    .first-sec {
+        padding: 112px 0;
+        max-width: 100%;
+    }
+    .button{
+        margin-top: 36px;
+    }
+    .title{
+        width: 496px;
+        font-size: 56px;
+font-family: Roboto;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 1.12px;
+color:  #FFFFFF;
+text-align: center;
+    }
+    .sec-ab-us{
+        display:none;
+    }
+    .modal-menu{
+        display:none;
+    }
+    
+    .second-list{
+        grid-gap: 72px 24px;
+    }
+    .smth-li{
+        max-width:unset;
+         width:calc((100% - 24px) / 2 );
+
+    }
+    .second-section{
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+    .customers-items{
+        max-width:168px;
+        width: calc((100% - 24px) / 3);
+    
+    }
+    .customers-list{
+        grid-gap: 72px 24px;
+        justify-content:center;
+      
+    }
+    .list-team{
+       grid-gap:64px 24px;
+       justify-content:center;
+    }
+    .list-img{
+        max-width:264px;
+        width:calc((100% - 24px) / 2 );
+    }
+.footer-logo{
+justify-content:start;
+}
+
+    .footer-sec{
+       display:flex;
+       align-items: baseline;
+    }
+    .social-media-nav{
+        margin-right: 24px;
+    }
+.soc-paragraph{
+    display:flex;
+    justify-content: start;
+    align-items: center; 
+}
+.footer-icon-list{
+margin-bottom: 72px;
+}
+.footer-form{
+    justify-content: center;
+    align-items: center;
+
+}
+.email-input{
+    width: 264px;
+    border-radius: 4px;
+    border: 1px solid var(--white, #FFF);
+    opacity: 0.30000001192092896;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.footer-form{
+    flex-wrap:nowrap;
+    justify-content: start;
+   
+}
+.menu-btm{
+    display:none;
+}
+.header-menu{
+    display:flex;
+}
+.address-menu{
+    display: block;
+    
+}
+.address-item-usual{
+   gap: 12px;
+}
+.first-sec{
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-desktop.jpg);
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .first-sec{
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+      url(../images/hero-tablet-2x.jpg);
+  }
+}
+}
+@media screen and (min-width:1440px){
+    .container{
+        max-width:1158px;
+    }
+    .icons-container{
+        display:flex;
+    }
+.smth-li{
+      width:calc((100% - 72px) / 4 );
+
+}
+.header-menu{
+    display:flex;
+}
+.address-menu{
+    display: flex;
+    
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .first-sec{
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+      url(../images/hero-desktop-2x.jpg);
+  }
+}
+.modal-menu{
+    display:none;
+}
+.menu-btm{
+    display:none;
+}
+.third-t{
+    font-size: 20px;
+font-family: Roboto;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.4px;
+}
+.smth-paragraph{
+    font-size: 16px;
+font-family: Roboto;
+line-height: 24px;
+letter-spacing: 0.32px;
+}
+.second-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.customers-items{
+    max-width:168px;
+  
+
+}
+
+
+    .customers-list{
+      
+
+    }
+    .list-img{
+        max-width:264px;
+    }
+
+
+
+.form{
+    margin-left: 80px;
+}
+.footer-sec{
+    display:flex;
+    align-items: baseline;
+ }
+ .social-media-nav{
+     margin-right: 120px;
+ }
+.soc-paragraph{
+ display:flex;
+ justify-content: start;
+ align-items: center; 
+}
+.footer-icon-list{
+margin-bottom: 72px;
+}
+.footer-form{
+ justify-content: center;
+ align-items: center;
+
+}
+.email-input{
+ width: 264px;
+ border-radius: 4px;
+border: 1px solid var(--white, #FFF);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+  
+}
+.footer-form{
+ flex-wrap:nowrap;
+ justify-content: start;
+
+}
+.sec-ab-us{
+    display:flex;
+ }
+ .first-sec {
+    padding: 188px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
+      max-width: 100%;
+}
+.button{
+    margin-top: 48px;
+}
+.title{
+    font-size: 56px;
+font-family: Roboto;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 1.12px;
+color:  #FFFFFF;
+text-align: center;
+}
+
+}
