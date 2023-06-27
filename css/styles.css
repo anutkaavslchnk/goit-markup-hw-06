@@ -51,20 +51,24 @@ height: 100%;
 background-color: #FFFFFF;
 top:0;
 z-index: 2;
-padding: 24px 24px 40px 60px;
+padding: 24px 24px 40px 40px;
 display: flex;
 flex-direction: column;
-justify-content: space-between;
+justify-content: space-between
+;
 overflow: auto;
 }
 
 .mob-header-menu{
-  margin-top: 32px;
-  padding-left: 40px;
+
+
  
 }
 .menu-btm{
   color:#2e2f42;
+      display: block;
+    background-color: transparent;
+    border: none;
 
 }
 .header-svg{
@@ -83,6 +87,9 @@ cursor: pointer;
 transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+.header{
+  
+}
 .mob-list-items{
   font-size: 36px;
   font-family: Roboto;
@@ -98,12 +105,10 @@ transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cub
 }
 
 .mob-address-menu{
-margin-bottom: 48px;
-padding-left: 40px;
+  margin-bottom: 48px;
 
 
 }
-
 
 .mob-address-items-email{
   font-size: 36px;
@@ -173,7 +178,8 @@ transition : background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  align-items:center;
  justify-content:space-between;
  padding: 0 15px;
-  border-bottom: 1px solid #e7e9fc
+  border-bottom: 1px solid #e7e9fc;
+  height: 70px;
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -211,7 +217,10 @@ transition : background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     color: #404bbf;
 }
-
+.mob-list-items.current-menu {
+  
+  color: #404BBF;
+}
 .current::after{
   position:absolute;
   left:0;
@@ -330,7 +339,7 @@ max-width: 100%;
   color:  #FFFFFF;
   text-align: center;
   margin:0 auto;
-  width: 320px;
+  max-width: 320px;
 }
 .button {
   min-width: 169px;
@@ -678,7 +687,7 @@ fill:currentColor;
   display:flex;
   list-style-type: none;
   gap:16px; 
-  margin-bottom: 72px;
+ 
   
 }
 .footer-icon-link{
@@ -753,7 +762,7 @@ align-items: center;
   display:flex;
   justify-content: center;
   align-items: center;
-
+  gap: 72px
 }
 
 .footer-paragraph {
@@ -764,7 +773,7 @@ align-items: center;
   letter-spacing: 0.02em;
  
   width: 264px;
-  margin-bottom: 72px;
+
   display:flex;
   justify-content: center;
   align-items: center;
@@ -1028,7 +1037,7 @@ justify-content: center; */
   transform:translate(-50%,-50%);
 
 
-  width: 408px;
+  width: 300px;
   min-height: 584px;
   background: #FCFCFC;
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
