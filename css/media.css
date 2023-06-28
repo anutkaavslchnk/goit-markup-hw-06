@@ -51,7 +51,7 @@
     margin-top: 72px;
 }
 .title{
-    width: 320px;
+    max-width: 320px;
 }
 
 .footer-logo {
@@ -89,7 +89,7 @@ letter-spacing: 0.48px;
         margin-top: 36px;
     }
     .title{
-        width: 496px;
+        max-width: 496px;
         font-size: 56px;
 font-family: Roboto;
 font-weight: 700;
@@ -142,6 +142,7 @@ justify-content:start;
     .footer-sec{
        display:flex;
        align-items: baseline;
+       width:584px;
     }
     .social-media-nav{
         margin-right: 24px;
@@ -191,13 +192,7 @@ justify-content:start;
 .header-container{
     height: 72px;
 }
-.first-sec{
-    background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/hero-desktop.jpg);
-}
+
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
@@ -208,6 +203,13 @@ justify-content:start;
     ),
       url(../images/hero-tablet-2x.jpg);
   }
+}
+.first-sec{
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-desktop.jpg);
 }
 }
 @media screen and (min-width:1158px){
@@ -343,6 +345,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     margin-top: 48px;
 }
 .title{
+    max-width:496px;
     font-size: 56px;
 font-family: Roboto;
 font-weight: 700;
