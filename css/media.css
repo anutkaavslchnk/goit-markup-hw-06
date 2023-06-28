@@ -143,6 +143,7 @@ justify-content:start;
        display:flex;
        align-items: baseline;
        width:584px;
+       gap: 72px 24px;
     }
     .social-media-nav{
         margin-right: 24px;
@@ -299,6 +300,7 @@ letter-spacing: 0.32px;
     display:flex;
     align-items: baseline;
     gap:0;
+    width: 1158px;
  }
  .social-media-nav{
      margin-right: 120px;

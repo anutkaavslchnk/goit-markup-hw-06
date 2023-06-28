@@ -137,7 +137,7 @@ color:#434455;
   align-items: center;
   display:flex;
   list-style-type: none;
-  gap:35px; 
+  gap: 35px; 
 }
 .mod-icon{
   border-radius:50%;
@@ -763,9 +763,9 @@ align-items: center;
   background-color: var(--grey-color);
   flex-wrap:wrap;
   display:flex;
-
+justify-content: center;
   align-items: center;
-  gap: 72px 24px;
+  gap: 72px;
 }
 
 .footer-paragraph {
