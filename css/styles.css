@@ -823,12 +823,14 @@ justify-content: center;
 .btn-second-page{
   display:flex;
   gap: 24px;
-  justify-content: center;
+  justify-content: start;
+  flex-wrap:wrap;
 margin-bottom: 72px;
+max-width: 320px;
 }
 .portfolio{
-   padding-top: 96px; 
-   padding-bottom: 120px; 
+   padding-top: 48px; 
+   padding-bottom: 48px; 
 }
 .bio-sec{
   margin: 0 auto ;
@@ -857,7 +859,7 @@ margin-bottom: 72px;
   
   border: 1px solid var(--white-unusual-color);
 border-radius: 4px;
- padding: 12px 24px;
+ padding: 8px 16px;
  transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .btn-items:hover,
@@ -925,8 +927,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-top: none;
 }
 .bio-cards-list{
-  width: calc((100% - 48px) / 3);
- 
+  min-width: 320px;
   background: var(--white-color);
  
 
@@ -937,17 +938,15 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
 }
 .btn-second-page{
-  display:flex;
-  justify-content: center; 
-  gap: 24px;
-  margin-bottom: 72px;
+
 }
 .second-page-img{
   display: flex;
   flex-wrap: wrap;
-  gap:24px;
+  gap:48px;
   column-gap: 24px;
   row-gap: 48px;
+  justify-content: center;
 }
 .second-page-title {
   font-weight: 500;
